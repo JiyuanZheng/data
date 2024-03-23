@@ -1,6 +1,6 @@
 import pandas as pd
 
-<<<<<<< HEAD:交互式.py
+<<<<<<< HEAD:app.py
 # 加载数据
 =======
 >>>>>>> 2008c5dddb933e74b6ead956562f7fb9be52c502:app.py
