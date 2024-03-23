@@ -8,9 +8,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-# Load data
-birth_rate_df = pd.read_csv(birth_rate_path)
-pm25_df = pd.read_csv(pm25_path)
 
 # Preprocess data: Merge datasets on 'Entity' and 'Year' columns
 merged_df = pd.merge(pm25_df, birth_rate_df, how='inner', on=['Entity', 'Year'])
