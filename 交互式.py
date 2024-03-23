@@ -1,12 +1,8 @@
 import pandas as pd
 
-# 定义文件路径
-birth_rate_path = "E:/OneDrive - Wongcoi/文档/科研/见好收/data作业/data作业/个人作业3.22/数据使用/同样也是出生人数.csv"
-pm25_path = "E:/OneDrive - Wongcoi/文档/科研/见好收/data作业/data作业/个人作业3.22/数据使用/pm25-air-pollution.csv"
-
 # 加载数据
-birth_rate_df = pd.read_csv(birth_rate_path)
-pm25_df = pd.read_csv(pm25_path)
+birth_rate_df = pd.read_csv("birth.csv")
+pm25_df = pd.read_csv("pm25-air-pollution.csv")
 
 import streamlit as st
 import pandas as pd
