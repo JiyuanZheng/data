@@ -1,6 +1,9 @@
 import pandas as pd
 
+<<<<<<< HEAD:交互式.py
 # 加载数据
+=======
+>>>>>>> 2008c5dddb933e74b6ead956562f7fb9be52c502:app.py
 birth_rate_df = pd.read_csv("birth.csv")
 pm25_df = pd.read_csv("pm25-air-pollution.csv")
 
